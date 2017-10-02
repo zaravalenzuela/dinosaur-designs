@@ -47,6 +47,13 @@ html:
       - 'Hadrosaurids are descendants of the Upper Jurassic/Lower Cretaceous'
       - 'Iguanodon is a genus of ornithopod dinosaur that existed roughly halfway'
       - 'Due to their distinctive combination of broad'
+    searchNot:
+      - check: 'HADROSAUR'
+        message: 'Capital letters shouldn’t be used in the HTML (except for acronyms); use CSS to make letters visually uppercase'
+      - check: 'IGUANODON'
+        message: 'Capital letters shouldn’t be used in the HTML (except for acronyms); use CSS to make letters visually uppercase'
+      - check: 'STEGOSAURUS'
+        message: 'Capital letters shouldn’t be used in the HTML (except for acronyms); use CSS to make letters visually uppercase'
 
 css:
   - path: 'css/main.css'
