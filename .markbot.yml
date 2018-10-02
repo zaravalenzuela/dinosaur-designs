@@ -57,3 +57,19 @@ html:
 
 css:
   - path: 'css/main.css'
+    has:
+      - ['html', 'line-height']
+      - ['img', 'width', '100%']
+      - ['h1', 'font-family']
+      - ['h1', 'color', '#5d8432']
+      - ['figcaption', 'font-style']
+      - ['nav', 'font-weight']
+      - ['nav', 'font-family']
+      - ['nav ol', 'list-style-type']
+      - ['nav a', 'text-decoration']
+      - ['nav a', 'color', '#793284']
+      - ['nav a:hover', 'color', '#b42885']
+      - ['.intro', 'font-size', '1rem']
+    searchNot:
+      - check: 'cursive'
+        message: 'Patua One should not have `cursive` as a backup font because it isn’t a cursive typeface; the backup should be `sans-serif`'
