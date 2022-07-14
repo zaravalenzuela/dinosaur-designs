@@ -9,10 +9,40 @@ html {
   box-sizing: inherit;
 }
 
-html {
-  box-sizing: border-box;
+img {
+  width: 100%;
 }
 
-*, *::before, *::after {
-  box-sizing: inherit;
+h1, h2 {
+  color: #5d8432;
+  text-transform: uppercase;
+}
+
+figcaption {
+  font-size: .8rem;
+  font-style: italic;
+  text-align: center;
+}
+
+nav {
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+nav ol {
+  list-style-type: none;
+}
+
+nav a {
+  color: #793284;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #b42885;
+  text-decoration: underline;
+}
+
+.intro {
+  font-size: 1rem;
 }
