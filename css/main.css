@@ -16,7 +16,7 @@ img {
 h1, h2 {
   color: #5d8432;
   text-transform: uppercase;
-  font-family: 'Patua One', sans-serif;
+  font-family: "Patua One", sans-serif;
 }
 
 figcaption {
@@ -28,6 +28,7 @@ figcaption {
 nav {
   font-size: 1.125rem;
   font-weight: bold;
+  font-family: "Patua One", sans-serif;
 }
 
 nav ol {
